@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.burger-background{
+  background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+}
