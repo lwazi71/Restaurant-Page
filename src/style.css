@@ -3,10 +3,17 @@
     padding:0;
 }
 
-
 .burger-background{
   background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
+
+  
+}
+#home-items{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
 }
