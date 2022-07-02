@@ -1,7 +1,7 @@
 const generateMenuPage = (() => {
-    const contentContainer = document.querySelector("#content");
+    const contentContainer= document.querySelector("#content");
     const menu = document.createElement("div");
-    menu.setAttribute("id",",menu")
+    menu.setAttribute("id",",menu");
 
     menu.innerHTML = `
     <div class = "container">
@@ -11,7 +11,7 @@ const generateMenuPage = (() => {
        </h2>
        <div class = "menu-group">
           <div class="menu-items">
-             <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Brekfast.jpg" alt="Crispy Chicken">
+             <img class="menu-item-image" src="./images/Breakfast.jpg" alt="Crispy Chicken">
              <div class="menu-item-text">
                 <h3 class="menu-item-heading">
                    <span class="menu-item-name">Sausage, Egg, & Cheese Croissan'Wich</span>
@@ -23,7 +23,7 @@ const generateMenuPage = (() => {
              </div>
           </div>
           <div class="menu-items">
-             <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/crispy-chicken-sandwich-no-text-square.jpeg" alt="Crispy Chicken">
+             <img class="menu-item-image" src="./images/Chicken.jpeg" alt="Crispy Chicken">
              <div class="menu-item-text">
                 <h3 class="menu-item-heading">
                    <span class="menu-item-name">Crispy Chicken Sandwich</span>
@@ -35,7 +35,7 @@ const generateMenuPage = (() => {
              </div>
           </div>
           <div class="menu-items">
-             <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/BaconKing.jpg" alt="Crispy Chicken">
+             <img class="menu-item-image" src="./images/Bacon.jpg" alt="Crispy Chicken">
              <div class="menu-item-text">
                 <h3 class="menu-item-heading">
                    <span class="menu-item-name">Bacon King</span>
@@ -47,7 +47,7 @@ const generateMenuPage = (() => {
              </div>
           </div>
           <div class="menu-items">
-             <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/RodeoKing.png" alt="Crispy Chicken">
+             <img class="menu-item-image" src="./images/RodeoKing.png" alt="Crispy Chicken">
              <div class="menu-item-text">
                 <h3 class="menu-item-heading">
                    <span class="menu-item-name">Rodeo King</span>
@@ -64,7 +64,7 @@ const generateMenuPage = (() => {
         </h2>
         <div class = "menu-group">
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Fries2.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Fries2.jpg" alt="Crispy Chicken">
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Classic Fries</span>
@@ -76,7 +76,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Nuggets.jpeg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Nuggets.jpeg" alt="Crispy Chicken">
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Chicken Nuggets 10pz </span>
@@ -87,7 +87,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/OnionRing.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/OnionRing.jpg" alt="Crispy Chicken">
               <div class="menu-item-text">
                <h3 class="menu-item-heading">
                    <span class="menu-item-name">Onion Rings</span>
@@ -99,7 +99,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-              <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Sticks.jpeg" alt="Crispy Chicken">
+              <img class="menu-item-image" src="./images/Sticks.jpeg" alt="Crispy Chicken">
               <div class="menu-item-text">
                  <h3 class="menu-item-heading">
                     <span class="menu-item-name">4pz Mozzarella Sticks</span>
@@ -116,7 +116,7 @@ const generateMenuPage = (() => {
         </h2>
         <div class = "menu-group">
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Cake.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Cake.jpg" alt="Crispy Chicken">
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Hershey's Pie</span>
@@ -128,7 +128,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Cone.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Cone.jpg" alt="Crispy Chicken">
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Soft Serve Cone</span>
@@ -139,7 +139,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Vanilla-Milkshake-square.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Milk.jpg" alt="Crispy Chicken">
               <div class="menu-item-text">
                <h3 class="menu-item-heading">
                    <span class="menu-item-name">Vanilla Shake</span>
@@ -151,7 +151,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-              <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Chocolate.jpeg" alt="Crispy Chicken">
+              <img class="menu-item-image" src="./images/Chocolate.jpeg" alt="Crispy Chicken">
               <div class="menu-item-text">
                  <h3 class="menu-item-heading">
                     <span class="menu-item-name">Chocolate Shake</span>
@@ -168,7 +168,7 @@ const generateMenuPage = (() => {
         </h2>
         <div class = "menu-group">
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Coke.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Coke.jpg" alt="Crispy Chicken">
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Coca-Cola</span>
@@ -180,7 +180,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Sprite.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Sprite.jpg" alt="Crispy Chicken">
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Sprite</span>
@@ -191,7 +191,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-               <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Lemonade.jpg" alt="Crispy Chicken">
+               <img class="menu-item-image" src="./images/Lemonade.jpg" alt="Crispy Chicken">
               <div class="menu-item-text">
                <h3 class="menu-item-heading">
                    <span class="menu-item-name">Lemonade</span>
@@ -203,7 +203,7 @@ const generateMenuPage = (() => {
               </div>
            </div>
            <div class="menu-items">
-              <img class="menu-item-image" src="/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/Pink-Lemonade-1-2.jpg" alt="Crispy Chicken">
+              <img class="menu-item-image" src="./images/PL.jpg" alt="Crispy Chicken">
               <div class="menu-item-text">
                  <h3 class="menu-item-heading">
                     <span class="menu-item-name">Pink Lemonade</span>

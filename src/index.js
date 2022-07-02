@@ -1,6 +1,4 @@
 import { initialPageLoad}  from './home.js';
-import './style.css'
-
-
-
-initialPageLoad();
+import { generateMenuPage } from './menu.js';
+import { headerPage } from './header.js';
+import './style.css';
