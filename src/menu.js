@@ -2,6 +2,7 @@ const generateMenuPage = (() => {
     const contentContainer= document.querySelector("#content");
     const menu = document.createElement("div");
     menu.setAttribute("id",",menu");
+    menu.setAttribute("data-tab-content", "");
 
     menu.innerHTML = `
     <div class = "container">

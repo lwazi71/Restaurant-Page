@@ -2,6 +2,7 @@ const initialPageLoad = (() => {
     const contentContainer = document.querySelector("#content");
 
     const homePage = document.createElement("div");
+    homePage.classList.add("tab-content");
     homePage.innerHTML = `
     <div class = "burger-background">
     <div id = "header-items">

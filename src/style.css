@@ -2,11 +2,12 @@
     margin:0;
     padding:0;
 }
-.show{
-    display: block;
-}
-.hide-page{
+[data-tab-content]{
     display:none;
+}
+
+.current[data-tabe-content]{
+    display:block;
 }
 .burger-background{
   background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home2.jpg');
