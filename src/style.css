@@ -2,14 +2,17 @@
     margin:0;
     padding:0;
 }
+.noHome{
+    display:none
+}
 [data-tab-content]{
     display:none;
 }
 
-.current[data-tabe-content]{
+.current[data-tab-content]{
     display:block;
 }
-.burger-background{
+.tab-content{
   background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home2.jpg');
   background-size: cover;
   background-repeat: no-repeat;

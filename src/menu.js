@@ -1,6 +1,6 @@
+const menu = document.createElement("div");
 const generateMenuPage = (() => {
     const contentContainer= document.querySelector("#content");
-    const menu = document.createElement("div");
     menu.setAttribute("id",",menu");
     menu.setAttribute("data-tab-content", "");
 
@@ -221,4 +221,4 @@ const generateMenuPage = (() => {
    contentContainer.appendChild(menu);
 })();
 
-export { generateMenuPage }
+export { generateMenuPage, menu }
