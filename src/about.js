@@ -1,7 +1,7 @@
 const aboutPage = document.createElement("div");
 
 const aboutPageLoad = (() => {
-    aboutPage.setAttribute("id",",menu");
+    aboutPage.setAttribute("id","about");
     aboutPage.setAttribute("data-tab-content", "");
     const contentContainer = document.querySelector("#content");
 
