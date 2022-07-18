@@ -2,7 +2,8 @@ const contactPage = document.createElement("div");
 
 const contactPageLoad = (() => {
     const contentContainer = document.querySelector("#content");
-    contactPage.classList.add("tab-content");
+    contactPage.setAttribute("id",",contact");
+    contactPage.setAttribute("data-tab-content", "");
     homePage.innerHTML = `
     <!DOCTYPE html>
     <html lang="en">
@@ -123,7 +124,7 @@ const contactPageLoad = (() => {
        </body>
     </html>
         `
-    contentContainer.appendChild(homePage);
+    contentContainer.appendChild(contactPage);
 })();
 
-export { initialPageLoad, homePage}
+export { contactPageLoad, contactPage}
