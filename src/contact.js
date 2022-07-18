@@ -4,7 +4,7 @@ const contactPageLoad = (() => {
     const contentContainer = document.querySelector("#content");
     contactPage.setAttribute("id",",contact");
     contactPage.setAttribute("data-tab-content", "");
-    homePage.innerHTML = `
+    contactPage.innerHTML = `
     <!DOCTYPE html>
     <html lang="en">
        <head>

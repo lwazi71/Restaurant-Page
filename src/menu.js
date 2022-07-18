@@ -1,4 +1,5 @@
 const menu = document.createElement("div");
+
 const generateMenuPage = (() => {
     const contentContainer= document.querySelector("#content");
     menu.setAttribute("id",",menu");

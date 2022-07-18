@@ -1,6 +1,5 @@
 const homePage = document.createElement("div");
 
-
 const initialPageLoad = (() => {
     const contentContainer = document.querySelector("#content");
     homePage.classList.add("tab-content");

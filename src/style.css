@@ -5,10 +5,10 @@
 }
 .noHome{
     display:none}
-[data-tab-content]{
-    display:none;
-}
 
+[data-tab-content] {
+    display: none;
+}
 .current[data-tab-content]{
     display:block;
 }

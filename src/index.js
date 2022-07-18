@@ -21,9 +21,3 @@ aboutSection.addEventListener("click", () => {
     homePage.remove("current");
     menu.remove("current");
 })
-contactSection.addEventListener("click",() => {
-    contactPage.classList.add("current");
-    aboutPage.classList.add("current");
-    homePage.remove("current");
-    menu.remove("current");
-})
