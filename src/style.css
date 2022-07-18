@@ -355,10 +355,6 @@ a, a:hover, a:focus, a:active {
 /*Responsive Design*/
 @media (max-width: 991px)
 {
-    body
-    {
-        background: #006241
-    }
     .contactUs{
         padding: 20px;
 

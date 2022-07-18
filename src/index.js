@@ -10,7 +10,6 @@ const aboutSection = document.getElementById("about");
 const contactSection = document.getElementById("contact");
 
 
-
 menuSection.addEventListener("click",() => {
     menu.classList.add("current");
     homePage.remove("current");
