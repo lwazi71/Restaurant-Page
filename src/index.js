@@ -4,17 +4,18 @@ import {aboutPageLoad, aboutPage} from './about.js';
 import './style.css';
 
 
-const menuPage = document.getElementById("menu");
+const menuSection = document.getElementById("menu");
 const aboutSection = document.getElementById("about");
-const contactPage = document.getElementById("contact")
+const contactSection = document.getElementById("contact");
 
-menuPage.addEventListener("click",() => {
+
+menuSection.addEventListener("click",() => {
     menu.classList.add("current");
     homePage.remove("current");
     aboutPage.remove("current");
 })
 aboutSection.addEventListener("click", () => {
+    aboutPage.classList.add("current");
     homePage.remove("current");
     menu.remove("current");
-    aboutPage.classList.add("current")
-}) 
+})

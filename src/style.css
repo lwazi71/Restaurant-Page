@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 .noHome{
-    display:none
-}
+    display:none}
 [data-tab-content]{
     display:none;
 }
