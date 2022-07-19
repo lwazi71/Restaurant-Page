@@ -13,7 +13,7 @@
 .current[data-tab-content]{
     display:block;
 }
-.tab-content{
+#tab-content{
   background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home8.jpg');
   background-size: cover;
   background-repeat: no-repeat;

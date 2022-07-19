@@ -2,7 +2,7 @@ const contactPage = document.createElement("div");
 
 const contactPageLoad = (() => {
     const contentContainer = document.querySelector("#content");
-    contactPage.setAttribute("id",",contact");
+    contactPage.setAttribute("id","contact");
     contactPage.setAttribute("data-tab-content", "");
     contactPage.innerHTML = `
     <!DOCTYPE html>
