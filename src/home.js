@@ -2,8 +2,8 @@ const homePage = document.createElement("div");
 
 const initialPageLoad = (() => {
     const contentContainer = document.querySelector("#content");
-    homePage.innerHTML = `
-    <div id = "tab-content" class = "current" >
+    homePage.innerHTML = `<div id="home" class="current" data-tab-content>
+    <div id = "tab-content" >
         <div id = "header-items">
    </div>
 </div>
