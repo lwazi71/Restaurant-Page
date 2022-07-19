@@ -14,7 +14,7 @@
     display:block;
 }
 .tab-content{
-  background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home2.jpg');
+  background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home8.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height:100vh;
@@ -43,9 +43,10 @@
     border:none;
     border-radius:  50px;
     cursor:pointer;
+    color: #ecf0f1;
     transition: all 0.3s ease 0s;
 }
-.contactb :hover {
+button :hover {
     background-color: rgba(0,136,169,0.8)
 }
 li,a{
@@ -70,6 +71,7 @@ header{
 }
 #home-items{
     position:fixed;
+    color: #ecf0f1;
     top: 50%;
     left: 50%;
     margin: -100px 0 0 -150px;

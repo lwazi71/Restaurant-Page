@@ -10,8 +10,11 @@ const initialPageLoad = (() => {
 </div>
     <div id = "home-items">
         <h2 class = "headingt-burger">Best Burgers in Bremerton</h2>
+        <br>
         <p class = "burger-paragraph">Locally Sourced x Crafted with Love</p>
+        <br>
         <button class = "burger-button">Order Now</button>
+        <br>
     </div>
     </div>
 </div>
