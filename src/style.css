@@ -18,6 +18,7 @@ body{
 .current[data-tab-content]{
     display:block;
 }
+/*Home Styling */
 #tab-content{
   background: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home8.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -49,6 +50,7 @@ body{
     cursor:pointer;
     color: #ecf0f1;
     transition: all 0.3s ease 0s;
+    margin-right:22px;
 }
 .contactb :hover {
     background-color: rgba(0,136,169,0.8)
@@ -68,7 +70,6 @@ header{
     height: 70px;
     
 }
-
 .pages{
     display: flex;
     gap:35px;
@@ -79,6 +80,9 @@ header{
     top: 60%;
     left: 50%;
     margin: -100px 0 0 -150px;
+}
+.burger-paragraph {
+    font-size:22px;
 }
 .order-now{
     padding: 10px 19px;
