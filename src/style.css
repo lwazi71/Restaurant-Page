@@ -4,6 +4,11 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    width:100vw;
+    min-height: 100vh;
+
+}
 .noHome{
     display:none}
 
@@ -87,6 +92,11 @@ a, a:hover, a:focus, a:active {
     max-width:1200px;
     margin:0 auto;
     padding:1.5em;
+}
+@media screen and (max-width: 768px) {
+    #tab-content{
+        min-height:95vh;
+    }
 }
 /* menu page styling */
 .menu{
