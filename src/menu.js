@@ -82,7 +82,7 @@ const generateMenuPage = (() => {
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Chicken Nuggets 10pz </span>
-                     <span class="menu-item-price">5.99</span>
+                     <span class="menu-item-price">$5.99</span>
                   </h3>
                   <p class = "menu-item-description">
                       Made with white meat, our bite-sized Chicken Nuggets are tender and juicy on the inside and crispy on the outside
@@ -134,7 +134,7 @@ const generateMenuPage = (() => {
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Soft Serve Cone</span>
-                     <span class="menu-item-price">1.00</span>
+                     <span class="menu-item-price">$1.00</span>
                   </h3>
                   <p class = "menu-item-description">
                    Creamy, and velvety Vanilla Soft Serve, served in a cone.
@@ -186,7 +186,7 @@ const generateMenuPage = (() => {
                <div class="menu-item-text">
                   <h3 class="menu-item-heading">
                      <span class="menu-item-name">Sprite</span>
-                     <span class="menu-item-price">1.59</span>
+                     <span class="menu-item-price">$1.59</span>
                   </h3>
                   <p class = "menu-item-description">
                    Crisp, refreshing and clean-tasting

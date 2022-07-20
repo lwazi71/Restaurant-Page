@@ -8,11 +8,11 @@ const initialPageLoad = (() => {
    </div>
 </div>
     <div id = "home-items">
-        <h2 class = "headingt-burger">Best Burgers in Bremerton</h2>
+        <h1 class = "headingt-burger">Best Burgers in Bremerton</h1>
         <br>
         <p class = "burger-paragraph">Locally Sourced x Crafted with Love</p>
         <br>
-        <button class = "burger-button">Order Now</button>
+        <a data-tab-target = "#menu" class = "order-now">Order Now</a>
         <br>
     </div>
     </div>

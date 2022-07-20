@@ -19,10 +19,9 @@ body{
     display:block;
 }
 #tab-content{
-  background-image: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home8.jpg');
+  background: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home8.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  height:100vh;
+  height:92vh
 }
 .logo{
     cursor:pointer;
@@ -51,7 +50,7 @@ body{
     color: #ecf0f1;
     transition: all 0.3s ease 0s;
 }
-button :hover {
+.contactb :hover {
     background-color: rgba(0,136,169,0.8)
 }
 li,a{
@@ -75,11 +74,25 @@ header{
     gap:35px;
 }
 #home-items{
-    position:fixed;
+    position:absolute;
     color: #ecf0f1;
-    top: 50%;
+    top: 60%;
     left: 50%;
     margin: -100px 0 0 -150px;
+}
+.order-now{
+    padding: 10px 19px;
+    border-radius: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration:none;
+    color:palegoldenrod;
+    background-color: red;
+    transition: all 0.3s ease 0s;
+
+}
+.order-now :hover{
+    color: #ed1250;
 }
 .burger-name{
 }
