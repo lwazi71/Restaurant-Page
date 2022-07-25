@@ -8,7 +8,7 @@ const initialPageLoad = (() => {
    </div>
 </div>
     <div id = "home-items">
-        <h1 class = "headingt-burger">Best Burgers in Bremerton</h1>
+        <h2 class = "headingt-burger">Best Burgers in Bremerton</h2>
         <br>
         <p class = "burger-paragraph">Locally Sourced x Crafted with Love</p>
         <br>
