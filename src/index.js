@@ -9,9 +9,15 @@ import {  contactPageLoad, contactPage } from './contact.js';
 import './style.css';
  
  const tabs = document.querySelectorAll('[data-tab-target]');
- const tabsContents = document.querySelectorAll("[data-tab-content]")
+ const tabsContents = document.querySelectorAll("[data-tab-content]");
+ const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
 
+hamburger.addEventListener("click", () => {
+    document.querySelector(".nav-menu").classList.toggle("active");
+    hamburger.classList.toggle("toggle");
+})
 
 tabs.forEach(tab => {
     tab.addEventListener('click', (e) => {
