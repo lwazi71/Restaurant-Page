@@ -22,7 +22,7 @@ body{
 #tab-content{
     background: url('dist/images/home8.jpg') no-repeat center center fixed;
   background-size: cover;
-  height:92vh;
+  height:100vh;
 }
 .logo{
     cursor:pointer;
