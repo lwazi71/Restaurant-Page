@@ -61,11 +61,11 @@ a{
     position: relative;
 }
 
-.nav-link{
+a{
     transition: 0.7s ease;
 }
-.nav-link:hover{
-    color: dodgerblue;
+a :hover{
+    color: red;
 }
 .hamburger{
     display:none;
@@ -150,7 +150,7 @@ a{
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
-    color: inherit;
+    color: red;
 }
 
 .container{
