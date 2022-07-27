@@ -20,9 +20,9 @@ body{
 }
 /*Home Styling */
 #tab-content{
-    background: url('/home/nolimitz/Desktop/coding_projects/Restaurant-Page/dist/images/home8.jpg') no-repeat center center fixed;
+    background: url('dist/images/home8.jpg') no-repeat center center fixed;
   background-size: cover;
-  height:92vh
+  height:92vh;
 }
 .logo{
     cursor:pointer;
